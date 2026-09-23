@@ -1,26 +1,25 @@
-# Flask — Wallpaper App
+# Flask — Live Wallpaper Gallery
 
-A sleek, responsive wallpaper gallery web app featuring beautiful free photographs from [Pexels](https://www.pexels.com).
+A sleek, fast wallpaper gallery that streams real-time photos from the Pexels API — search, categories, infinite scroll, full-screen previews, favourites, and one-tap downloads.
+
+**Live demo:** https://flask-puce-five.vercel.app/
 
 ## Features
+- Live Pexels feed: curated photos with infinite scroll
+- Search across millions of free photos
+- Category chips: Nature, Abstract, City, Ocean, Mountains, Space, Animals, Minimal, Architecture
+- Orientation filter: landscape / portrait (phone wallpapers)
+- Full-screen preview with photographer credit
+- One-tap full-resolution downloads
+- Favourites saved in the browser
+- Light / dark / auto theme
+- Built-in Pexels API key, plus a settings panel to use your own free key
 
-- 🖼️ Curated wallpaper gallery with high-quality Pexels photos
-- 🔍 Live search across wallpapers
-- 🏷️ Category filters (nature, abstract, minimal, and more)
-- 🔎 Full-screen preview mode
-- ⬇️ One-click direct downloads
-- ❤️ Session favorites — heart the wallpapers you love
-- 🌗 Coordinated light & dark themes
-- 📱 Fully responsive — mobile friendly with no horizontal scrolling
+## API key
+The app ships with a built-in Pexels API key so it works out of the box. To use your own quota instead, get a free key at https://www.pexels.com/api/ and paste it into the app's Settings panel (gear icon).
 
-## Usage
-
-Just open `index.html` in any modern browser — no build step, no server, no API key needed. All photos are bundled with full credit links back to their Pexels source pages.
+## Run locally
+Just open `index.html` in a browser — no build step. An internet connection is required for the Pexels API.
 
 ## Credits
-
-All photographs are free stock photos from [Pexels](https://www.pexels.com), used under the [Pexels License](https://www.pexels.com/license/). Photographer credits link back to each photo's source page inside the app.
-
-## Tech
-
-Pure HTML, CSS, and vanilla JavaScript — zero dependencies.
+Photos provided by [Pexels](https://www.pexels.com) — free to use.
